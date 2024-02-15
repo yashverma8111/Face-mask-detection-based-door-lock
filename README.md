@@ -13,7 +13,7 @@ Visual feedback and alerts: Provides clear visual cues on screen to indicate mas
 Python 3.7 or later
 OpenCV
 MediaPipe
-Necessary libraries for hardware control (e.g., controller.py for door automation and LED)
+Necessary libraries for hardware control (e.g., controller.py for door automation and LED, Haarcascade files)
 ## Installation:
 
 Clone this repository:
@@ -21,27 +21,19 @@ Bash
 git clone https://github.com/<your-username>/face-mask-door-lock.git
 Use code with caution. Learn more
 Install the required libraries:
-Bash
-pip install -r requirements.txt
-Use code with caution. Learn more
+Use code with caution.
 ## Usage:
 
 Connect the necessary hardware components according to your setup.
+![Circuit](https://github.com/yashverma8111/Face-mask-detection-based-door-lock/assets/75109371/1b7374ac-e298-4e37-984e-c0bf4ee01963)
 Run the main Python script:
 Bash
 python main.py
 Use code with caution. Learn more
 The system will start detecting faces and masks in real-time.
 The door will automatically lock if a person is not wearing a mask correctly.
-## Additional Information:
 
-Hardware configuration: Provides details on the specific hardware components used for door control and LED signaling.
-Troubleshooting: Offers guidance on common issues and potential solutions.
-Customization: Explains how to adjust parameters for sensitivity, hardware interactions, and other settings.
 ## Contributions:
 
 We welcome contributions to enhance this project! Please feel free to submit pull requests or raise issues.
 
-## License:
-
-This project is licensed under the MIT License.
