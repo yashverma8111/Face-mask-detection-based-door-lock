@@ -32,7 +32,7 @@ def detect_media(results, img, nose):
                     if len(nose) == 0:
                         cv2.putText(img, weared_mask, org, font, font_scale, weared_mask_font_color, thickness,
                                     cv2.LINE_AA)
-                        cv2.putText(img, "Door is Open", open_close_org, font, font_scale, door_open_color, thickness,
+                        cv2.putText(img, "Door is Open"+f" Score:{round(results.detections[0].score[0],4)}", open_close_org, font, font_scale, door_open_color, thickness,
                                     cv2.LINE_AA)
                         doorAutomate(1)
                         led("green")
@@ -45,14 +45,14 @@ def detect_media(results, img, nose):
                                             thickness,
                                             cv2.LINE_AA)
                                 doorAutomate(0)
-                                cv2.putText(img, "Door is Closed", open_close_org, font, font_scale, door_close_color,
+                                cv2.putText(img, "Door is Closed"+f" Score:{round(results.detections[0].score[0],4)}", open_close_org, font, font_scale, door_close_color,
                                             thickness,
                                             cv2.LINE_AA)
                                 doorAutomate(0)
                                 led("red")
                                 time.sleep(duration)
                             elif len(nose) <= 1:
-                                cv2.putText(img, "Door is Open", open_close_org, font, font_scale, door_open_color,
+                                cv2.putText(img, "Door is Open"+f" Score:{round(results.detections[0].score[0],4)}", open_close_org, font, font_scale, door_open_color,
                                             thickness,
                                             cv2.LINE_AA)
                                 doorAutomate(1)
