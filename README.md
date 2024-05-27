@@ -18,7 +18,7 @@ Necessary libraries for hardware control (e.g., controller.py for door automatio
 
 Clone this repository:
 Bash
-git clone https://github.com/<your-username>/face-mask-door-lock.git
+git clone https://github.com<your-username>/face-mask-door-lock.git
 Use code with caution. Learn more
 Install the required libraries:
 Use code with caution.
