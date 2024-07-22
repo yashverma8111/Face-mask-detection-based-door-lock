@@ -2,6 +2,10 @@
 
 This project utilizes computer vision and hardware control to create a system that detects face masks and automatically locks a door if a mask is not worn correctly.
 
+## Demo: 
+https://github.com/user-attachments/assets/78432d03-32c0-4a14-b55b-d5821ef36133
+
+
 ## Key Features:
 
 Real-time face mask detection using MediaPipe Face Detection: Accurately identifies whether a person is wearing a mask or not.
