@@ -30,6 +30,7 @@ Use code with caution.
 
 Connect the necessary hardware components according to your setup.
 ![Circuit](https://github.com/yashverma8111/Face-mask-detection-based-door-lock/assets/75109371/1b7374ac-e298-4e37-984e-c0bf4ee01963)
+
 Run the main Python script:
 Bash
 python main.py
