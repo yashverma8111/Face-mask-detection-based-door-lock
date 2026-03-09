@@ -3,7 +3,7 @@
 This project utilizes computer vision and hardware control to create a system that detects face masks and automatically locks a door if a mask is not worn correctly.
 
 ## Demo: 
-https://github.com/user-attachments/assets/78432d03-32c0-4a14-b55b-d5821ef36133
+[https://github.com/user-attachments/assets/78432d03-32c0-4a14-b55b-d5821ef36133](https://github.com/user-attachments/assets/4fd31376-429d-463a-9cd4-4698016ca9c0)
 
 
 ## Key Features:
